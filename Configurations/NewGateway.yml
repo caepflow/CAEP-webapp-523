@@ -1,22 +1,22 @@
 id: ba8b6754-ac05-49ba-9cd4-d2d1380a7857
 type: gateway
 interactions:
-- targetId: 246a6728-b642-4852-b4a8-03da94741888
-  type: service
-  level: container
+  - targetId: 246a6728-b642-4852-b4a8-03da94741888
+    type: service
+    level: container
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    ed9def43-b40b-45a3-a3ab-1c9bb363aaf1:
-      x: 126
-      y: 125.5
-    246a6728-b642-4852-b4a8-03da94741888:
-      x: 1235.5
-      y: 125.5
-    8ecda43e-2323-4568-b4c9-8279a53befc4:
-      x: 390.5
-      y: 124.5
+  - namespace: c4modeler
+    name: position
+    value:
+      ed9def43-b40b-45a3-a3ab-1c9bb363aaf1:
+        x: 126
+        y: 125.5
+      246a6728-b642-4852-b4a8-03da94741888:
+        x: 1235.5
+        y: 125.5
+      8ecda43e-2323-4568-b4c9-8279a53befc4:
+        x: 390.5
+        y: 124.5
 port: 10000
 proxy: traefik
 name: NewGateway
