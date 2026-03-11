@@ -1,0 +1,18 @@
+id: 49604ff7-821b-427d-a466-ef5544e02bef
+type: dto
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    6dfc2f13-8c0f-4cc0-96d6-f6ab8172706a:
+      x: 308.03956478733926
+      y: 93.71859545004948
+dtoType: entity
+name: NewDto
+fields:
+- type: string
+  description: New Field
+  isPublic: true
+  enumerable: true
+  name: name
+description: Dto
